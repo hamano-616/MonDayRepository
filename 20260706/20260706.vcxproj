@@ -127,7 +127,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="20260706_ex.cpp" />
+    <ClCompile Include="20260706_ex.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="20260706_Function1_hamano.cpp" />
+    <ClCompile Include="20260706_PracMain1_hamano.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="20260706_Header1_hamano.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
