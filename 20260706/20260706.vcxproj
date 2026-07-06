@@ -130,11 +130,20 @@
     <ClCompile Include="20260706_ex.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="20260706_Function1_hamano.cpp" />
-    <ClCompile Include="20260706_PracMain1_hamano.cpp" />
+    <ClCompile Include="20260706_Function1_hamano.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="20260706_FunctionMain2_hamano.cpp" />
+    <ClCompile Include="20260706_PracMain1_hamano.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="20260706_PracMain2_hamano.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="20260706_Header1_hamano.h" />
+    <ClInclude Include="20260706_Header1_hamano.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="20260706_HeaderMain2_hamano.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
