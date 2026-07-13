@@ -11,7 +11,7 @@ int main(void)
 
 	srand((unsigned int)time(NULL));
 
-	while (true)
+	while (level<5)
 	{
 		Run(exp, level);
 	}
