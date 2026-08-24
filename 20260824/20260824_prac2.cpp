@@ -20,6 +20,6 @@ int main(void)
 			max = *(pNum + i);
 		}
 	}
-	cout << "Å‘å’l" << max << endl;
+	cout << "Å‘å’l:" << max << endl;
 	return 0;
 }
