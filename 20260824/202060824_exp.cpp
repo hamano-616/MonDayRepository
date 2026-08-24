@@ -21,5 +21,5 @@ int main(void)
 	{
 		cout << "pAry:" << *(pAry + i) << endl;
 	}
-	return 
+	return 0;
 }
