@@ -18,6 +18,11 @@ void CardManager::CreateCards()
 			index++;
 		}
 	}
+	
+	cardCount = CARD_TOTAL;
+}
+void CardManager::ShuffleCards()
+{
 	for (int j = 0; j < CARD_TOTAL; j++)
 	{
 		int randomIndex = j + rand() % (CARD_TOTAL - j);
@@ -25,7 +30,6 @@ void CardManager::CreateCards()
 		cards[j] = cards[randomIndex];
 		cards[randomIndex] = temp;
 	}
-	cardCount = CARD_TOTAL;
 }
 int CardManager::DrawCard()
 {
