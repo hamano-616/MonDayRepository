@@ -1,17 +1,10 @@
-#include"Animal.h"
 #include<iostream>
+#include"Dog.h"
 using namespace std;
+int main(void)
+{
+	Dog dog("ƒ|ƒ`");
+	cout << dog.GetName() << endl;
 
-Animal::Animal(string name)
-{
-	this->name = name;
-}
-string Animal::GetName()
-{
-	return name;
-}
-
-void Animal::Speak()
-{
-	cout << "“®•¨‚Ì–Â‚«º" << endl;
+	dog.Speak();
 }

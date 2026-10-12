@@ -11,7 +11,7 @@ public:
 
 	string GetName();
 
-	void Speak();
+	 virtual void Speak();
 
 };
 
