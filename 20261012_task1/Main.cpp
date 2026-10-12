@@ -1,5 +1,8 @@
 #include<iostream>
 #include"Character.h"
+#include"Player.h"
+#include"Enemy.h"
+#include"Boss.h"
 using namespace std;
 
 int main(void)
@@ -9,5 +12,20 @@ int main(void)
 
 	cout << character.GetName() << endl;
 	character.Attack();
+	//
+	Player player("‚ ‚È‚½");
+
+	cout << player.GetName() << endl;
+	player.Attack();
+	//
+	Enemy enemy("‚Ä‚«");
+
+	cout << enemy.GetName() << endl;
+	enemy.Attack();
+	//
+	Boss boss("ƒ{ƒX");
+
+	cout << boss.GetName() << endl;
+	boss.Attack();
 	return 0;
 }
